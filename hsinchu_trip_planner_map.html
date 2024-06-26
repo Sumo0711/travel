@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d28618c5104996425a599f2cfaa7129c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d28618c5104996425a599f2cfaa7129c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d28618c5104996425a599f2cfaa7129c = L.map(
+                "map_d28618c5104996425a599f2cfaa7129c",
+                {
+                    center: [24.8138, 120.9675],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_262efa5cc2c0c0b90ec3092b8404d12a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_262efa5cc2c0c0b90ec3092b8404d12a.addTo(map_d28618c5104996425a599f2cfaa7129c);
+        
+    
+            var marker_ffb11dc4edfbfab249fedb2531195f60 = L.marker(
+                [24.8302944, 121.0170811],
+                {}
+            ).addTo(map_d28618c5104996425a599f2cfaa7129c);
+        
+    
+            var icon_01ab36a479c8132b788734318a5c5ac8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffb11dc4edfbfab249fedb2531195f60.setIcon(icon_01ab36a479c8132b788734318a5c5ac8);
+        
+    
+        var popup_28cb962bd698fd3ddf853f57a3de773d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e767f91a9494e8c542afc921422e66fe = $(`<div id="html_e767f91a9494e8c542afc921422e66fe" style="width: 100.0%; height: 100.0%;">夏慕尼新香榭鐵板燒 竹北光明店</div>`)[0];
+                popup_28cb962bd698fd3ddf853f57a3de773d.setContent(html_e767f91a9494e8c542afc921422e66fe);
+            
+        
+
+        marker_ffb11dc4edfbfab249fedb2531195f60.bindPopup(popup_28cb962bd698fd3ddf853f57a3de773d)
+        ;
+
+        
+    
+    
+            var marker_3dbf6343e831f8b7f30620eed8bc7f01 = L.marker(
+                [24.84980610000001, 120.9290028],
+                {}
+            ).addTo(map_d28618c5104996425a599f2cfaa7129c);
+        
+    
+            var icon_b29fcf0f330db9c213a79a087c750b36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3dbf6343e831f8b7f30620eed8bc7f01.setIcon(icon_b29fcf0f330db9c213a79a087c750b36);
+        
+    
+        var popup_76696136f4b01fa60c82ce1bc574798e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc69b0bef362f9f64ed4225b86ece98b = $(`<div id="html_fc69b0bef362f9f64ed4225b86ece98b" style="width: 100.0%; height: 100.0%;">新竹南寮舊漁港</div>`)[0];
+                popup_76696136f4b01fa60c82ce1bc574798e.setContent(html_fc69b0bef362f9f64ed4225b86ece98b);
+            
+        
+
+        marker_3dbf6343e831f8b7f30620eed8bc7f01.bindPopup(popup_76696136f4b01fa60c82ce1bc574798e)
+        ;
+
+        
+    
+    
+            var marker_e8bed31c36b13e70a673df7ad8effb29 = L.marker(
+                [24.8207329, 121.0223841],
+                {}
+            ).addTo(map_d28618c5104996425a599f2cfaa7129c);
+        
+    
+            var icon_d1b8434b4f9d0a692b1890cd8a33c1d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8bed31c36b13e70a673df7ad8effb29.setIcon(icon_d1b8434b4f9d0a692b1890cd8a33c1d3);
+        
+    
+        var popup_856894b03d673c9d79e3f37c847de3f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_084cb722b8da2003a3e8e3ab45a6abce = $(`<div id="html_084cb722b8da2003a3e8e3ab45a6abce" style="width: 100.0%; height: 100.0%;">桃太郎日式炭火燒肉 莊敬店</div>`)[0];
+                popup_856894b03d673c9d79e3f37c847de3f9.setContent(html_084cb722b8da2003a3e8e3ab45a6abce);
+            
+        
+
+        marker_e8bed31c36b13e70a673df7ad8effb29.bindPopup(popup_856894b03d673c9d79e3f37c847de3f9)
+        ;
+
+        
+    
+    
+            var marker_e5338d85ede5bdc216f4c182bcc4f22b = L.marker(
+                [24.8252617, 121.1806044],
+                {}
+            ).addTo(map_d28618c5104996425a599f2cfaa7129c);
+        
+    
+            var icon_c11fb6a640e831b08207c31866e73f3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e5338d85ede5bdc216f4c182bcc4f22b.setIcon(icon_c11fb6a640e831b08207c31866e73f3c);
+        
+    
+        var popup_f6442bf6782968221a1ad7481174a94b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2246f13a25922ff805a3e6f93632671b = $(`<div id="html_2246f13a25922ff805a3e6f93632671b" style="width: 100.0%; height: 100.0%;">六福村主題遊樂園</div>`)[0];
+                popup_f6442bf6782968221a1ad7481174a94b.setContent(html_2246f13a25922ff805a3e6f93632671b);
+            
+        
+
+        marker_e5338d85ede5bdc216f4c182bcc4f22b.bindPopup(popup_f6442bf6782968221a1ad7481174a94b)
+        ;
+
+        
+    
+    
+            var marker_c7939ef429ed32fb0ebf1a43e7cb3abe = L.marker(
+                [24.6994697, 121.0577609],
+                {}
+            ).addTo(map_d28618c5104996425a599f2cfaa7129c);
+        
+    
+            var icon_4f4895ac4d2c55c76cffca7b1b427e50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c7939ef429ed32fb0ebf1a43e7cb3abe.setIcon(icon_4f4895ac4d2c55c76cffca7b1b427e50);
+        
+    
+        var popup_4978ce246c9f6b9b65ec04021d11a6a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f040c9a64d5fad5cfa8b54eb0cb00e52 = $(`<div id="html_f040c9a64d5fad5cfa8b54eb0cb00e52" style="width: 100.0%; height: 100.0%;">老街一口菜包</div>`)[0];
+                popup_4978ce246c9f6b9b65ec04021d11a6a4.setContent(html_f040c9a64d5fad5cfa8b54eb0cb00e52);
+            
+        
+
+        marker_c7939ef429ed32fb0ebf1a43e7cb3abe.bindPopup(popup_4978ce246c9f6b9b65ec04021d11a6a4)
+        ;
+
+        
+    
+    
+            var marker_436af1726de45bf4b9bbc84766674414 = L.marker(
+                [24.7820365, 121.0210813],
+                {}
+            ).addTo(map_d28618c5104996425a599f2cfaa7129c);
+        
+    
+            var icon_f7c69e15498a8a3b263a247a7f82a2c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_436af1726de45bf4b9bbc84766674414.setIcon(icon_f7c69e15498a8a3b263a247a7f82a2c2);
+        
+    
+        var popup_28fcc1f03fc16aaa52879df76f6bfdfc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c1318f4c67bd2cce338ef2894dad9e6 = $(`<div id="html_4c1318f4c67bd2cce338ef2894dad9e6" style="width: 100.0%; height: 100.0%;">金頓國際大飯店</div>`)[0];
+                popup_28fcc1f03fc16aaa52879df76f6bfdfc.setContent(html_4c1318f4c67bd2cce338ef2894dad9e6);
+            
+        
+
+        marker_436af1726de45bf4b9bbc84766674414.bindPopup(popup_28fcc1f03fc16aaa52879df76f6bfdfc)
+        ;
+
+        
+    
+</script>
+</html>
